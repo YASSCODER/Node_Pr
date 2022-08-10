@@ -1,5 +1,27 @@
 {
   "dependencies": {
     "lodash": "^4.17.21"
-  }
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.19"
+  },
+  "name": "node_pr",
+  "version": "1.0.0",
+  "main": "app.js",
+  "scripts": {
+    "start": "node app.js" ,
+    "dev": "nodemon app.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/YASSCODER/Node_Pr.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/YASSCODER/Node_Pr/issues"
+  },
+  "homepage": "https://github.com/YASSCODER/Node_Pr#readme",
+  "description": ""
 }
